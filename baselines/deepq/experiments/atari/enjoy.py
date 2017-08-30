@@ -8,6 +8,7 @@ from gym.monitoring import VideoRecorder
 import baselines.common.tf_util as U
 
 from baselines import deepq
+from baselines.deepq.build_graph import build_act, build_train
 from baselines.common.misc_util import (
     boolean_flag,
     SimpleMonitor,
